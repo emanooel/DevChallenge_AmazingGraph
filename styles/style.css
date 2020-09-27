@@ -33,3 +33,39 @@ header nav a{
 
     font-size: 18px;
 }
+
+/*Aplicando estilos no main conteudo principal*/
+/*Lado esquerdo*/
+.container-content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.container-content-left h1{
+   color: var(--cor-secundaria);
+   font-size: 64px;
+}
+
+.container-content-left p{
+    font-size: 28px;
+    color: var(--cor-secundaria);
+    margin: 24px 0;
+    width: 80%;
+}
+
+.container-content-left a{
+    text-decoration: none;
+    background-color: var(--cor-principal);
+    color: white;
+
+    font-size: 24px;
+    font-weight: 500;
+   
+    width: 300px;
+    padding: 16px 0;
+   
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px ;
+}
