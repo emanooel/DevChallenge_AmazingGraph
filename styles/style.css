@@ -30,7 +30,6 @@ header nav a{
     text-decoration: none;
     margin-right: 25px;
     
-
     font-size: 18px;
 }
 
@@ -47,9 +46,10 @@ header nav a{
 }
 
 .container-content-left p{
-    font-size: 28px;
+    font-size: 26px;
     color: var(--cor-secundaria);
-    margin: 24px 0;
+    margin-top: 32px;
+    margin-bottom: 84px;
     width: 80%;
 }
 
@@ -68,4 +68,16 @@ header nav a{
     justify-content: center;
 
     border-radius: 10px ;
+}
+/*Lado direito. imagem*/
+.container-content-right img{
+    position: absolute;
+    height: 500px;
+
+    z-index: -1;
+    left: 34%;
+}
+
+main{
+    margin-top: 96px;
 }
