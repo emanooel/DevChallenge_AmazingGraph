@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #D2872C;
+    --cor-secundaria: #766F68;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 32px;
+}
+header h1{
+   color: var(--cor-principal); 
+   font-size: 28px;
+}
+
+header nav a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    margin-right: 25px;
+    
+
+    font-size: 18px;
+}
